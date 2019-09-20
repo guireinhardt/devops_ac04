@@ -1,9 +1,9 @@
 class operacoes():
-
-    def sub(self, valores):
-        val = 1
-        for v in valores:
-        val - = val -v
+    def subtracao(self, valores):
+        val = 0
+        v1=valores[0]
+        v2=valores[1]
+        val = v1 - v2
         return val
   
     

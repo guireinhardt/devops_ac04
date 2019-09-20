@@ -1,10 +1,10 @@
-from unittest import Testcase
-from com.guilherme.subtracao import operacoes:
+from unittest import TestCase
+from com.guilherme.subtracao import operacoes
 
-class testoperacoes(Testcase):
+class testoperacoes(TestCase):
     
     def setUp(self):
         self.subtracao = operacoes()
         
     def test_subtracao(self):
-        self.assertEqual(self.subtracao.subtracao([5,2], 3,"should be 3")
+        self.assertEqual(self.subtracao.subtracao([5,2]), 3,"should be 3")
